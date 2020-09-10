@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS project_3_local;
-CREATE DATABASE project_3_local;
+DROP DATABASE IF EXISTS post_boot_local;
+CREATE DATABASE post_boot_local;
 
-DROP DATABASE IF EXISTS project_3_test;
-CREATE DATABASE project_3_test;
+DROP DATABASE IF EXISTS post_boot_test;
+CREATE DATABASE post_boot_test;
