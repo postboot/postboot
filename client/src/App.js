@@ -1,9 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { MemberDashboard, ProfileSettings, SplashPage } from './pages';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
 import DraftNavDeleteMeLater from './components/DraftNavDeleteMeLater';
 
 
