@@ -7,10 +7,10 @@ function Home() {
         <>
             <Paper>
                 <Container>
-                    <Grid container spacing={3}>
+                    <Grid container>
                         <Grid item xs={12}>
 
-                            <Typography variant="h2" align="center" gutterBottom>
+                            <Typography variant="h6" align="center">
                                 Hello World
                             </Typography>
 

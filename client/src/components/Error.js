@@ -1,5 +1,5 @@
 import React from "react";
-import MuiAlert from '@material-ui/lab/Alert';
+// import MuiAlert from '@material-ui/lab/Alert';
 import { Button } from '@material-ui/core';
 
 function Error(props) {
@@ -7,9 +7,9 @@ function Error(props) {
 
     return (
         <>
-        {error !== "" ? 
+        {/* {error !== "" ? 
             <MuiAlert severity="error">{error}<Button onClick={() => clearError()}>X</Button></MuiAlert>
-        : <></>}
+        : <></>} */}
         </>
     );
 

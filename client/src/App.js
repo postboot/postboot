@@ -4,14 +4,24 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Container, Row, Col } from 'react-bootstrap';
+
+import { Projects } from './pages';
+
 function App() {
   return (
     <div className='App-header'>
       <Row>
         <Col>
-          <div>
-            Hi there
-          </div>
+          <Projects />
+        </Col>
+        <Col>
+          <Projects />
+        </Col>
+        <Col>
+          <Projects />
+        </Col>
+        <Col>
+          <Projects />
         </Col>
       </Row>
       <Row>
