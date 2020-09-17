@@ -8,7 +8,7 @@ function SplashPage (){
     return(
         <>
 
-        <div>
+        <div className ="App-header">
             This is the main page called Splashpage.js
         </div>
             
