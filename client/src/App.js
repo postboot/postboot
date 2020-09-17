@@ -1,16 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { MemberDashboard, ProfileSettings, SplashPage } from './pages';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { Container, Row, Col } from 'react-bootstrap';
-import { MainTemplate } from './pages';
+import DraftNavDeleteMeLater from './components/DraftNavDeleteMeLater';
+
 
 function App() {
-  return (
-    <div className='App-header'>
-      <MainTemplate />
-    </div>);
+  return (<>
+    <Router>
+      <DraftNavDeleteMeLater/>
+      <Switch>
+        <Route exact path={["/", "/splashpage"]}>
+          <SplashPage />
+        </Route>
+        <Route exact path={["/memberdashboard"]}>
+          <MemberDashboard />
+        </Route>
+        <Route
+          exact path={["/profilesettings"]}>
+          <ProfileSettings />
+        </Route>
+      </Switch>
+    </Router>
+  </>
+  );
 }
 
 export default App;
