@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function MemberDashboard (){
+function SplashPage (){
 
 
 
@@ -9,11 +9,11 @@ function MemberDashboard (){
         <>
 
         <div>
-            HELLO?!!
+            This is the main page called Splashpage.js
         </div>
             
         </>
     )
 };
 
-export default MemberDashboard;
+export default SplashPage;

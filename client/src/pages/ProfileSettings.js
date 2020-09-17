@@ -5,9 +5,11 @@ function ProfileSettings (){
 
 
 
-    return{
+    return(<>
 
-    }
+    </>
+
+    )
 };
 
 export default ProfileSettings;
