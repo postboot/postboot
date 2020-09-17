@@ -2,9 +2,9 @@
 // import MuiAlert from '@material-ui/lab/Alert';
 // import { Button } from '@material-ui/core';
 
+
 // function Error(props) {
 //     const { error, clearError } = props
-
 //     return (
 //         <>
 //         {error !== "" ? 
