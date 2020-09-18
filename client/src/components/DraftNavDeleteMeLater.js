@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function DraftNavDeleteMeLater() {
 
+
   return (
     <>
       <AppBar position="static">
@@ -13,12 +14,12 @@ function DraftNavDeleteMeLater() {
           <Button component={Link} to="/splashpage" color="inherit">Splash Page</Button>
           <Button component={Link} to="/projects" color="inherit">Projects</Button>
 
-                                {/* ADD MORE PAGES HERE */}
+                    {/* ADD MORE PAGES HERE */}
 
-        </Toolbar>
-      </AppBar>
-    </>
-  )
+                </Toolbar>
+            </AppBar>
+        </>
+    )
 }
 
 export default DraftNavDeleteMeLater;
