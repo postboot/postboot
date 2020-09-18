@@ -1,17 +1,14 @@
 import React from 'react';
+import MainTemplate from './MainTemplate';
 
 
-function SplashPage (){
+function SplashPage() {
 
 
 
-    return(
+    return (
         <>
-
-        <div>
-            This is the main page called Splashpage.js
-        </div>
-            
+            <MainTemplate />
         </>
     )
 };
