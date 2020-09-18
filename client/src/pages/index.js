@@ -7,3 +7,5 @@ export { default as MemberDashboard } from "./MemberDashboard";
 export { default as ProfileSettings } from "./ProfileSettings";
 export { default as SplashPage } from "./Splashpage";
 
+export { default as Projects } from "./Projects";
+
