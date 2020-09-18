@@ -1,12 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { MemberDashboard, ProfileSettings, SplashPage } from './pages';
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { MemberDashboard, ProfileSettings, SplashPage, Projects } from './pages';
+
 import './App.css';
 import DraftNavDeleteMeLater from './components/DraftNavDeleteMeLater';
 
 
 function App() {
   return (<>
+    
+    <div className="App-header">
     <Router>
       <DraftNavDeleteMeLater/>
       <Switch>
@@ -16,12 +20,16 @@ function App() {
         <Route exact path={["/memberdashboard"]}>
           <MemberDashboard />
         </Route>
+        <Route exact path={["/memberdashboard"]}>
+          <Projects />
+        </Route>
         <Route
           exact path={["/profilesettings"]}>
           <ProfileSettings />
         </Route>
       </Switch>
     </Router>
+    </div>
   </>
   );
 }

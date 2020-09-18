@@ -1,11 +1,12 @@
 import React from 'react';
+import MainTemplate from './MainTemplate';
 
 
-function SplashPage (){
+function SplashPage() {
 
 
 
-    return(
+    return (
         <>
 
         <div className ="App-header">
