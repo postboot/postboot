@@ -5,14 +5,17 @@ import { MemberDashboard, ProfileSettings, SplashPage, Projects } from './pages'
 
 import './App.css';
 import DraftNavDeleteMeLater from './components/DraftNavDeleteMeLater';
+import { Newnav } from './components';
 
 
 function App() {
   return (<>
     
     <div className="App-header">
+
     <Router>
       <DraftNavDeleteMeLater/>
+      <Newnav />
       <Switch>
         <Route exact path={["/", "/splashpage"]}>
           <SplashPage />
@@ -20,7 +23,7 @@ function App() {
         <Route exact path={["/memberdashboard"]}>
           <MemberDashboard />
         </Route>
-        <Route exact path={["/memberdashboard"]}>
+        <Route exact path={["/projects"]}>
           <Projects />
         </Route>
         <Route
@@ -29,6 +32,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+
     </div>
   </>
   );
