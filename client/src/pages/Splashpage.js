@@ -1,5 +1,8 @@
 import React from 'react';
 import MainTemplate from './MainTemplate';
+import { Container, Paper, Typography, CssBaseline, Grid } from "@material-ui/core";
+
+import { Newnav } from '../components';
 
 
 function SplashPage() {
@@ -9,10 +12,13 @@ function SplashPage() {
     return (
         <>
 
-        <div className ="App-header">
-            This is the main page called Splashpage.js
-        </div>
-            
+            <div className="App-header">
+                <React.Fragment>
+                    <CssBaseline/>
+                    <Newnav />
+                </React.Fragment>
+            </div>
+
         </>
     )
 };
