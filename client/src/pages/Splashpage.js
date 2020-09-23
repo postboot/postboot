@@ -12,13 +12,6 @@ function SplashPage() {
     return (
         <>
 
-            <div className="App-header">
-                <React.Fragment>
-                    <CssBaseline/>
-                    <Newnav />
-                </React.Fragment>
-            </div>
-
         </>
     )
 };
