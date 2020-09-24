@@ -6,33 +6,35 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    paper: {
-        padding: theme.spacing(0),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    },
 }));
 
 export default function CenteredGrid() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <div>
             <Grid
-                container spacing={0}
-                justify='space-between'
+                container
+                className="navbox"
             >
-                <Grid item xs={1}>
-                    <Paper className={classes.paper}>Postboot</Paper>
+                <Grid item
+                    xs={3}
+                    className="navitem"
+                >
+                    <div>POSTBOOT</div>
                 </Grid>
-                <Grid item xs={1}>
-                    <Paper className={classes.paper}>Logo </Paper>
+                <Grid item
+                    xs={3}
+                    className="navitem"
+
+                >
+                    <div>//\\</div>
                 </Grid>
-                <Grid item xs={1}>
-                    <Paper className={classes.paper}>log in/out</Paper>
+                <Grid item
+                    xs={3}
+                    className="navitem"
+                >
+                    <div>I / O</div>
                 </Grid>
             </Grid>
         </div>

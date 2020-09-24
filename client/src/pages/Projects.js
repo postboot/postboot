@@ -7,18 +7,25 @@ function Projects() {
 
     return (
         <>
-            <Container>
-                <Grid container
-                    direction="row"
-                    spacing={10}>
-                    <Grid item xs={4}>
-                            <img src="triangle.swaddle.png" />
-                    </Grid>
-                    <Grid item xs={4}>
-                            <img src="triangle.postboot.png" />
-                    </Grid>
+            <Grid container
+                direction="row"
+                className="projectscontainer"
+            >
+                <Grid item
+                    xs={4}
+                    className="projectsitem"
+                >
+                    <img src="triangle.swaddle.png" />
+                    <div>hi</div>
                 </Grid>
-            </Container>
+                <Grid item
+                    xs={4}
+                    className="projectsitem"
+
+                >
+                    <img src="triangle.postboot.png" />
+                </Grid>
+            </Grid>
         </>
     )
 };

@@ -19,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #333333;
+  background-color: #222222;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
 }
 
 .Profile-settings {
-  background-color: rgb(66, 66, 66);
+  background-color: #111;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,16 +52,37 @@
   }
 }
 
-.projects {
-  background-color: #;
-  padding: 0px;
+.projectscontainer {
+  display: flex;
+  background-color: #111;
   color: #fff;
-  justify-content: start;
-  height: 200px;
-  width: 200px;
-  align-items: flex-end;
+  justify-content: center;
+}
+
+.projectsitem {
+  background-color: burlywood;
 }
 
 .yostyle {
   color: aqua;
+}
+
+.navcontainer {
+  background-color: bisque;
+  color: aqua;
+}
+
+.navbox {
+  background-color: #111111;
+  justify-content: space-evenly;
+  color: #eeeeee;
+}
+
+.navitem {
+  /* background-color: rgb(226, 86, 43); */
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
 }
