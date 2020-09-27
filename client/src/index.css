@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Members{
+  color: azure;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.Members h2{
+  padding: 10px;
+}
+

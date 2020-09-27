@@ -9,6 +9,7 @@ function DraftNavDeleteMeLater() {
     <>
       <AppBar position="static">
         <Toolbar>
+          <Button component={Link} to="/members" color="inherit"> Members</Button>
           <Button component={Link} to="/memberdashboard" color="inherit">Member Dashboard</Button>
           <Button component={Link} to="/profilesettings" color="inherit">Profile Settings</Button>
           <Button component={Link} to="/splashpage" color="inherit">Splash Page</Button>
