@@ -6,6 +6,7 @@ export { default as MainTemplate } from './MainTemplate';
 export { default as MemberDashboard } from "./MemberDashboard";
 export { default as ProfileSettings } from "./ProfileSettings";
 export { default as SplashPage } from "./Splashpage";
+export { default as Members } from "./Members";
 
 export { default as Projects } from "./Projects";
 
