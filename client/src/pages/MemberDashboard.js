@@ -42,7 +42,7 @@ function MemberDashboard() {
           <Button variant="contained" size="large" color="primary" className={classes.margin} component={Link} to="/profilesettings">Profile Settings</Button>
         </Grid>
         <Grid item xs={6}>
-          <Button variant="contained" size="large" color="primary" className={classes.margin} component={Link} to="/profilesettings">Projects</Button>
+          <Button variant="contained" size="large" color="primary" className={classes.margin} component={Link} to="/projects">Projects</Button>
         </Grid>
         </Grid>
         </Container>
