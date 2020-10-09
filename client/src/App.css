@@ -36,8 +36,10 @@
   background-image: url(https://i.pinimg.com/originals/8d/18/2f/8d182f613b9825dc5bf67c64c2777000.jpg);
   min-height: 100vh;
   justify-content: center;
+  align-items: center;
   color: white;
 }
+
 
 
 @keyframes App-logo-spin {
